@@ -34,6 +34,7 @@ header {
 
 #hero {
     display: flex;
+    flex-wrap: wrap;
     background-color: #F4F6FB;
     padding: 40px;
 
@@ -42,6 +43,7 @@ header {
 #hero .left {
     width: 60%;
     height: 200px;
+
 }
 
 #hero .left small {
@@ -97,10 +99,11 @@ header {
 
 
 #Nos-ateliers .parent {
+    width: 100%;
     padding-bottom: 40px;
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    gap: 50px;
 }
 
 #Nos-ateliers .child {
@@ -135,4 +138,8 @@ footer p {
     color: grey;
     text-align: center;
 
+}
+@media(max-width:375px) {
+
+    
 }
